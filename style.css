@@ -137,6 +137,9 @@ body {
     color: white;
     border-radius: 20px;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 .actions div {
     width: 50px;
@@ -244,4 +247,7 @@ li {
 }
 .num {
     color: red !important;
+}
+svg {
+    width: 20px;
 }
